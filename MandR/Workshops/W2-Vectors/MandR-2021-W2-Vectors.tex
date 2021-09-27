@@ -1,0 +1,119 @@
+\documentclass[11pt]{article}
+%\usepackage{fullpage}
+\usepackage[top=2cm, bottom=1.5cm, left=1.5cm, right=1.5cm]{geometry}
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LO]{Mechanics \& Relativity F3210}
+\fancyhead[RO]{Workshop 2: Vectors}
+%\fancyfoot[CE,CO]{\leftmark}
+%\fancyfoot[LE,RO]{\thepage}
+
+%answers
+\usepackage{etoolbox}
+\providetoggle{answers}
+\settoggle{answers}{false}
+
+\newcommand\vect[1]{\underline{\mathbf{#1}}}
+\newcommand\unitvect[1]{\hat{\boldsymbol{#1}}}
+
+\begin{document}
+
+\noindent
+\textbf{\textcolor{red}{Please upload your solution to Problem 3 to canvas for marking after the workshop.}}\\
+
+\section*{Problem 1}
+
+Write an expression for a displacement vector $\vect{r}$ which is in the ${x,y}$ plane, has length 1.9 cm, and is at an angle $71^{\circ}$ from the $x$-axis.
+
+
+\iftoggle{answers}{
+\vspace{1cm}
+\noindent
+SOLUTION:\\
+$r = 1.9$ cm\\
+$\theta = 71^{\circ}$\\
+We want $\vect{r} = r_x \unitvect{i} + r_y \unitvect{j}$ 
+Find the x ad y components by drawing a right triangle with hypotenuse 1.9 and angle $71^{\circ}$\\
+$r_x = $ adjacent, so we use $\cos \theta =$ adj/hyp  $\rightarrow   r_x = 1.9 \cos 71^{\circ} = 0.619$ cm\\
+$r_y = $ opposite, so we use $\sin \theta =$ opp/hyp  $\rightarrow   r_y = 1.9 \sin 71^{\circ} = 1.80$ cm\\
+So  $\vect{r} =  0.6\unitvect{i} + 1.8 \unitvect{j}$ 
+}{}
+
+
+\section*{Problem 2}
+
+Vector $\vect{\alpha}$, which is directed along an $x$-axis, is to be added to vector $\vect{\beta}$, which has a magnitude of 7 m. The sum is a third vector that is directed along the $y$-axis, with a magnitude that is 3 times that of $\vect{\alpha}$. What is that magnitude of $\vect{\alpha}$?
+
+\iftoggle{answers}{
+\vspace{1cm}
+\noindent
+SOLUTION:\\
+Let's call the third vector $\vect{\gamma}$\\
+$\vect{\alpha}$ has no y-component\\
+$| \vect{\beta} | = 7$\\
+$\vect{\gamma}$ has no x-component\\
+$| \vect{\gamma} | = 3 | \vect{\alpha} |$\\
+We see that $\vect{\beta}$ must have both an x and y component:\\
+ the x-comp to cancel that from $\vect{\alpha}$ , and the y-comp to give us that in $\vect{\gamma}$:\\
+$ \beta_x  = - \alpha_x$, and note that this is $|\vect{\alpha}|$\\
+$ \beta_y  =  \gamma_y$, and note that this is $|\vect{\gamma}|$, which we are told is 3$|\vect{\alpha}|$ \\
+So,  $|\vect{\gamma}| = 3 | \vect{\alpha} |$ gives us $ \beta_y = 3  \beta_x $\\
+And so $\sqrt{ \beta_x^2 + (3\beta_x )^2} = 7$\\
+$\sqrt{ 10} \beta_x = 7 \rightarrow \beta_x = 7/ \sqrt{ 10} = 2.21$: this is magnitude of $\vect{\alpha}$
+}{}
+
+
+\noindent
+
+\section*{\textcolor{red}{Problem 3}}
+\fbox{\begin{minipage}{\textwidth}
+A vector product $\vect{P} = a\vect{B}\times\vect{C}$, where $a=2$, $\vect{B} = 2\unitvect{i} + 4\unitvect{j} + 6\unitvect{k}$ and $\vect{C} = 4\unitvect{i} -20\unitvect{j} + 12\unitvect{k}$. \\[1ex]
+ What is $\vect{P}$ in unit vector notation ?
+
+\end{minipage}}
+
+\iftoggle{answers}{
+\vspace{1cm}
+\noindent
+SOLUTION:\\
+
+}{}
+
+%\section*{Problem 4}
+%
+%$k=9$\\
+%$\vect{A} = 2\unitvect{i} + 4\unitvect{j} + 6\unitvect{k}$\\
+%$\vect{B} = 4\unitvect{i} -20\unitvect{j} + 12\unitvect{k}$\\
+%$\vect{C} =  \unitvect{i} -10\unitvect{j} - 3\unitvect{k}$. \\[1ex]
+%What is $k\vect{A}\cdot (\vect{B}\times\vect{C})$?
+%
+%\iftoggle{answers}{
+%\vspace{1cm}
+%\noindent
+%SOLUTION:\\
+%
+%}{}
+
+
+
+\end{document}
+
+
+
+
+
+ 
+
+
+
+
+ 
+
+

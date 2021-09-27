@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{I2Q Part 4: The Photoelectric Effect}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Radiation}{4}{0}{1}
+\beamer@subsectionintoc {1}{2}{Lenard}{7}{0}{1}
+\beamer@subsectionintoc {1}{3}{The Photoelectric Effect}{10}{0}{1}

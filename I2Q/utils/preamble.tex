@@ -1,0 +1,125 @@
+% preamble and style file for M&R lecture slides
+\documentclass[11.5pt,sans,english]{beamer}
+
+\usetheme{EastLansing}
+\usecolortheme{lily}
+
+\usepackage[most]{tcolorbox}
+
+\usepackage{verbatim}
+%\usepackage{ulem}
+%\usepackage{fontawesome}
+%\usepackage{tikz}
+%\usepackage{pifont}
+%\usepackage{tabularx}
+\usepackage{array,booktabs,xcolor,colortbl,multirow,rotating,amssymb}
+%\usepackage{amsmath}
+% \usepackage{vwcol}
+% \usepackage[T1]{fontenc}
+
+  
+\newcommand\vect[1]{\underline{\mathbf{#1}}}
+\newcommand\unitvect[1]{\hat{\boldsymbol{#1}}}
+%\newcommand\hatdot[1] { \hat{ \dot{ \boldsymbol{#1} } } }
+
+\newtcbox
+{\keyc}{on line,arc=2pt, colback=yellow!30!white, colframe=yellow!30!black, before upper={\rule[-3pt]{0pt}{10pt} },boxrule=1pt,boxsep=0pt,left=6pt,right=6pt,top=2pt,bottom=2pt,}
+
+\newtcbox
+{\keyb}{on line,arc=1pt, colback=blue!30!white, colframe=blue!30!black, before upper={\rule[-3pt]{0pt}{10pt} },boxrule=1pt,boxsep=0pt,left=6pt,right=6pt,top=2pt,bottom=2pt,}
+
+\newtcbox
+{\keyl}{on line,arc=1pt, colback=pink!30!white, colframe=blue!30!black, before upper={\rule[-3pt]{0pt}{10pt} },boxrule=1pt,boxsep=0pt,left=6pt,right=6pt,top=2pt,bottom=2pt,}
+
+\newtcbox
+{\keyw}{on line,arc=1pt, colback=red!30!white, colframe=blue!30!black, before upper={\rule[-3pt]{0pt}{10pt} },boxrule=1pt,boxsep=0pt,left=6pt,right=6pt,top=2pt,bottom=2pt,}
+
+\newtcbox
+{\keya}{on line,arc=1pt, colback=purple!30!white, colframe=blue!30!black, before upper={\rule[-3pt]{0pt}{10pt} },boxrule=1pt,boxsep=0pt,left=6pt,right=6pt,top=2pt,bottom=2pt,}
+
+\newtcbox[auto counter,number within=section]
+{keyf}
+{
+enhanced,
+on line,
+  boxsep=0pt,
+  left=6pt,right=6pt,top=2pt,bottom=2pt,
+  arc=5pt,
+  boxrule=1pt,
+  rightrule=38pt,
+colback=green!10!white, 
+colframe=green!50!black, 
+title=\thetcbcounter,
+detach title,
+overlay unbroken and first ={
+    \node[%rotate=90,
+          %minimum width=1cm,
+          anchor=south,
+          font=\sffamily\bfseries\tiny,
+          %yshift=-10pt,
+          yshift=-5pt,
+          xshift=-20pt,
+          white]
+    at (frame.east) {\thetcbcounter};
+  }
+}
+
+
+\usepackage{xcolor}
+
+%\usepackage{hyperref}
+%\hypersetup{
+%  pdfauthor={Lily Asquith},
+%  urlcolor=blue,
+%  colorlinks=true,
+%  linkcolor=blue,
+%  bookmarks=true
+%}
+
+%---------------------------------------------%
+%              LILY'S COLOURS           %
+%---------------------------------------------%
+\definecolor{Wash}{RGB}{204,204,204}
+%\definecolor{Pinky}{RGB}{254,200,254}%violet
+\definecolor{Pinky}{RGB}{219,	240,	253}%violet
+\definecolor{Bluey}{RGB}{0,190,255}%deep sky blue
+\definecolor{DarkGrey}{RGB}{28,66,137}%dar grey
+\definecolor{SussexWhite}{RGB}{253,255,254}%dar grey
+\definecolor{LightGray}{RGB}{184,184,255}
+\definecolor{YesGreen}{RGB}{0,128,0}
+\definecolor{NoRed}{RGB}{250,0,0}
+
+
+
+\definecolor{myred}{RGB}{255,153,153}
+\definecolor{myorange}{RGB}{255,204,153}
+\definecolor{myyellow}{RGB}{255,255,153}
+\definecolor{mygreen}{RGB}{153,255,153}
+\definecolor{mycyan}{RGB}{153,255,255}
+\definecolor{myblue}{RGB}{153,204,255}
+\definecolor{myviolet}{RGB}{153,153,255}
+\definecolor{mypurple}{RGB}{204,153,255}
+\definecolor{mypink}{RGB}{255,204,255}
+\definecolor{mycoral}{RGB}{255,153,204}
+
+%-----------------------------------------------------%
+%              LILY'S COLUMN TYPES          %
+%-----------------------------------------------------%
+\newcolumntype{a}{>{\raggedright\arraybackslash}l}	
+\newcolumntype{q}{>{\raggedright\arraybackslash}m{8cm}} 
+
+%--------------------------------------------%
+%              LILY'S SYMBOLS          %
+%--------------------------------------------%
+\newcommand{\dfinger}{\large{\textcolor{black}{\ding{43}}}\scriptsize}
+\newcommand{\dstar}{\large{\textcolor{black}{\ding{76}}}\scriptsize}
+\newcommand{\dwrite}{\large{\textcolor{black}{\ding{45}}}\scriptsize}
+\newcommand{\ddiamond}{\small{\textcolor{DarkGrey}{\ding{117}}}\scriptsize}
+\newcommand{\ddiamondwhite}{\small{\textcolor{SussexWhite}{\ding{117}}}\scriptsize}
+\newcommand{\experiment}{\small{\textcolor{magenta}{\faCogs }}\scriptsize}
+\newcommand{\watchit}{\textcolor{blue}{ \faYoutube}}
+
+
+\makeatletter
+\newcommand\notsotiny{\@setfontsize\notsotiny{6.5}{7.5}}
+\makeatother
