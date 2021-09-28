@@ -28,8 +28,14 @@ v_max = 0 # velocity at max height (it must momentarily stop)
 # 3. We have v,a,t. We want s (at t=1.5). The initial velocity u is unknown.
 # v = u + at, so u = v - at
 u = v_max - a*t_max
+print("u: ",u)
+print("a: ",a)
+
 # 4. Now we have uvat
 # s = u*t + 0.5*a*pow(t,2) and we want to use t_tower
+print("u*t_tower: ",u*t_tower)
+print("0.5*a*pow(t_tower,2): ",0.5*a*pow(t_tower,2) )
+
 s_tower = u*t_tower + 0.5*a*pow(t_tower,2)
 print("height s_tower: %f"%(s_tower))
 print("-----")
@@ -49,19 +55,22 @@ u_2 = 20
 # 2. What do we know that is not explicitly given in the question?
 # we know how to calculate v_1, by differentiating x_1
 # v_1 = 12*pow(t,1) + 3.00
-# we know how to calculate v_2, as we have u_2 and a_2
-# v_2 = u_2 + a_2*t = 20 - 8*pow(t,2)
+# we know how to calculate v_2, by itegrating a_2
+# v_2 = -4*pow(t,2) + c
 # we now have v_1 = v_2:
-# 12*pow(t,1) + 3.00 = 20 - 8*pow(t,2)
+# we find c by sayig when t=0, v_2 = u_2 = 20, so
+# v_2 = -4*pow(t,2) + 20
+
+# 12*pow(t,1) + 3.00 = - 4*pow(t,2) + 20
 # and we know how to solve a quadratic equation
-# 8*pow(t,2) + 12*pow(t,1) - 17 =0
-abc = [8, 12, -17] # an array of the coefficients a,b,c of the quadratic
+# 4*pow(t,2) + 12*pow(t,1) - 17 =0
+abc = [4, 12, -17] # an array of the coefficients a,b,c of the quadratic
 roots = np.roots(abc) # the roots of the array
 t = roots[roots>0] # time must be +, so take the positive root
 print("positive root t: ",t)
 # so finally we plug this value for t back into v_1 (or v_2):
 v_1 = 12*pow(t,1) + 3.00
-v_2 = u_2 - 8*pow(t,2)
+v_2 = 20 - 4*pow(t,2)
 print("v_1: %f; v_2: %f "%(v_1,v_2))
 print("-----")
 
@@ -73,14 +82,14 @@ print("Problem 4:")
 #(b) the initial velocity of the ball?
 # Solution
 # 1. What are we explicitly given in the question/graph?
-s_max = 30 # max height
+s_max = 25 # max height
 t_max = 2.5 # from the graph
 # 2. What do we know that is not explicitly given in the question?
 v_max = 0 # velocity at max height (it must momentarily stop)
 # we are missing u and a, which are what we must find
 # s = v*t - 0.5*a*pow(t,2)
 # a = (2/pow(t,2))*(v*t - s)
-a = (2/pow(t_max,2))*(v_max*t_max - s_max)
+a = (2/pow(t_max,2))*(v_max*t_max-s_max)
 print("acceleration on planet: %f"%(a))
 # now find u, using v=u+at
 u = v_max - a*t_max
