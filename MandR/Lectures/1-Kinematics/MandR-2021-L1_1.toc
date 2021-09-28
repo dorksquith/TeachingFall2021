@@ -1,4 +1,0 @@
-\beamer@sectionintoc {1}{M\&R 1: Kinematics}{2}{0}{1}
-\beamer@subsectionintoc {1}{1}{Displacement, Velocity \& Acceleration }{3}{0}{1}
-\beamer@subsectionintoc {1}{2}{Equations of Motion for constant acceleration}{14}{0}{1}
-\beamer@subsectionintoc {1}{3}{Reading graphs }{25}{0}{1}
