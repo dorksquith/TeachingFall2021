@@ -28,6 +28,8 @@ v_max = 0 # velocity at max height (it must momentarily stop)
 # 3. We have v,a,t. We want s (at t=1.5). The initial velocity u is unknown.
 # v = u + at, so u = v - at
 u = v_max - a*t_max
+print("a: %f"%(a))
+print("u: %f"%(u))
 # 4. Now we have uvat
 # s = u*t + 0.5*a*pow(t,2) and we want to use t_tower
 s_tower = u*t_tower + 0.5*a*pow(t_tower,2)
