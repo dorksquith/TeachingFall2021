@@ -1,3 +1,38 @@
+Lily's `manifesto for change' based on the notes below:
+
+There should be a new Y1 module, Core Physics, with a dedicated convenor. 
+
+The issues this will solve (note that the spring term is an anomaly in that David is convenor for both core modules; this is based on term 1):
+a. Sussex Direct cannot deal with mixed-module scheduling. The workshops must always be assigned to a single module, which confuses approximately all students.
+b. The students currently have to be organised into the same groups for both MM1 and M&R, manually, which is a pain. Grouping for Y1 T1 will always be a pain, because of appeals.
+c. The marking scheme for workshops is not the same as for the rest of MM1 and M&R. It is also not anonymous, and is subjective to some extent by its nature. This must be separated from the MM1 and M&R exam marking to avoid confusion and more work.
+
+The following points have the [name] of the person picking up the additional work to cover for the lack of a responsible person in each case.
+
+d. Nobody is responsible for ensuring students:
+ i) are assigned to a group with a DT and AA, and are informed of this [Lily, badly]
+ ii) are aware of the motivation for the Core Physics workshops [Lily, badly]
+ iii) understand that the workshops are DT-led and -marked, and that this is a different form of teaching and grading from their lectures and exams. [Lily, badly]
+ iv) are aware of the deadlines for coursework submission [Lily and Alex? And DTs?]
+ v) are aware of the function of AA meetings, and have an AA meeting that does not clash with something else in their timetable. [Lisa? Lily? The AAs themselves?]
+ 
+d. Nobody is responsible for ensuring AAs
+i) Have access to the relevant canvas pages
+ii) Have a clear outline of what will be covered across both core modules, in advance
+iii) Know who their groups are, and know who their group DTs are
+iV) Know how to scedule non-clashing office-hours prior to the start of term.
+
+e. Nobody is responsible for ensuring DTs
+ i) Know how the workshops will be structured [Lisa? Rachel? Lily?]
+ ii) Have a clear outline of what will be covered across both core modules, in advance [Lily and Alex]
+ iii) Have the right technical training to use the seminar room computers/ projectors [Lily, badly]
+ iv) Have access to a common Poll Everywhere site that is GDPR compliant [Lily, badly]
+ v) Have access to canvas that is GDPR compliant [Lily and Alex, prob not GDPR compliant]
+ vi) Are completely clear on the expectations for marking, including the marking scheme, the feedback, how to use canvas speedgrader, how much time to take, turnover times, what to do if they are sick or otherwise unavailable. [Lily? Rachel? Lisa? ]
+ vii) Are actually physically available to run workshops. [?]
+ 
+
+
 Time:
 DTs are being given 37 hours each for the 11 week term.
 This breaks down as: 10 weeks x (2 hours workshops + 1 hour prep) = 30 hours
@@ -6,19 +41,26 @@ Each student has 10 students to mark in 30 mins per week = 5 hours.
 Leaving 2 hours for training.
 
 Technology:
-DTs have nont been told how to use the seminar rooms - a practical tutorial in this would be beneficial.
-PollEverywhere - one official page for everyone? ilovephysics. GDPR issues.
-There is a SD register which we are not using. Add this?
+DTs have not been told how to use the seminar rooms - a practical tutorial in this would be beneficial.
+PollEverywhere - one official page for everyone? ilovephysics. GDPR issues?
+DTs to be shown how to take attendance with app? Or SD register?
 
 Grading:
-How to use the canvas gradebook
-How to grade out of 3
-Timeline: 1 week?
+DTs should be given Instructions on how to use the canvas gradebook
+How to grade out of 3: detailed examples.
+How quickly is marking expected to be done? Would prefer Friday afternoon, but Monday 12 noon at latest (this is for Friday noon submission deadline)
+I think we need to have a specific 1 hour lecture with documentation which is for the DTs and the students, explaining exactly how the grading will be done for coursework marked by humans. This should include the MPS guidelines for significant figures / precision, the policy on the use of units both within algebraic formulae and for a given answer, how to lay out a solution, and examples of what constitutes a 1, 2, 3.
+
 
 Notes for lecturers:
-Grading out of 3
-First year groups
-Scheduling - lectures before workshops
+
+Grading out of 3 : lecturers should receive and explicitly sign-off on the mark scheme before the start of term. Lecturers should then publicize this mark scheme on canvas and possibly also on all problem sets.
+
+First year groups: these have to be created by hand. It is a pain in the arse every year, mainly because of student appeals. It should be random in my opinion, with the exception of repeaters going into Kathy's groups because she is best placed to deal with the uncertainty as DoSE. That plan from Kathy has worked well this year, I think.
+
+Scheduling - lectures on a topic must be before workshops in a topic, in my opinion, even if it means making the lecture schedule slightly less tidy in terms of week-by-week.
+
+
 
 
 
