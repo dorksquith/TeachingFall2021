@@ -1,0 +1,166 @@
+\input{../../utils/preamble.tex}
+
+
+% 
+\title[ Intro to Quantum Physics]{Intro to Quantum Physics F3241}
+%\subtitle{\textbf{Part 3: Blackbody Radiation}}
+\author[Dr Lily Asquith (Lily)]{ Dr Lily Asquith (Lily)}
+\date[Week 3]{ Week 3}
+\logo{
+\includegraphics[width=1.5cm]{../../utils/uslogo.jpg}
+}
+
+
+\begin{document}
+
+
+\begin{frame}
+\titlepage
+\end{frame} 
+
+ %-----------------------------------------------------------%
+ % 1 Kinematics                                                 %
+ %-----------------------------------------------------------%
+\section{I2Q Part 3: Blackbody Radiation}
+\begin{frame}
+\frametitle{Blackbody Radiation} 
+\normalsize
+
+This week's topics:\\[3ex]
+
+\begin{itemize}
+\item[3.1] Blackbody Radiation\\[3ex]
+\item[3.2] The Ultraviolet Catastrophe, Planck to the rescue\\[3ex]
+\end{itemize}
+
+Your homework questions for this week are on canvas - please complete these by the end of the week.
+\end{frame} 
+ 
+ 
+\begin{frame}{Temperature: observations}
+\small
+\includegraphics[scale=0.45]{bbspectrum}
+
+Let's do a quiz: pollev.com/ilovephysics
+
+\end{frame}
+
+
+\begin{frame}{Wien's Law \& Stefan-Boltzman Law}
+
+\small
+The Peak Wavelength $\lambda_{P} \sim T^{-1}$. \\[1ex]
+
+Wien's law: $\lambda_{P} = \sigma T^{-1}$, where $\sigma = 2.90 \times 10^{-3}$ [units?] \\[8ex]
+
+The Peak Power Density $R_{P} \sim T^{4}$.\\[1ex]
+Stefan-Boltzman Law: $R_{P} = k T^{4}$, where $k = 5.67 \times 10^8 $ Wm$^{-2}$\\[8ex]
+
+Note that astronomers use really silly units.
+
+\end{frame}
+
+\begin{frame}{Silly Astronomers}
+\small
+From \href{https://en.wikipedia.org/wiki/Radiant_intensity}{Wikipedia: Radiant\_intensity} with a page search for "confusing":
+
+\includegraphics[scale=0.25]{astrotards}
+
+\end{frame}
+
+\subsection{The Ultraviolet Catastrophe, Planck to the rescue}
+%
+%
+\begin{frame}{Energy Density: The Rayleigh-Jeans law}
+\small
+We can understand the blackbody spectrum in pieces, but what about the whole thing?\\[1ex]
+\begin{columns}
+\begin{column}{0.6\textwidth}
+
+\includegraphics[scale=0.3]{bbspectrum}
+\end{column}
+\begin{column}{0.4\textwidth}
+R-J Law: $U(T) = \frac{8\pi}{\lambda^4} k_B T$\\ [1ex]
+$where$\\[1ex]
+ $k_B = 1.38\times10^{-23}$ JK$^{-1}$\\[2ex]
+Let's analyse this...\\[6ex]
+\vspace{4cm}
+
+\end{column}
+\end{columns}
+\end{frame}
+
+
+\begin{frame}{The UV catastrophe: Aargh!}
+\small
+Classical Physics has failed us!
+\begin{columns}
+\begin{column}{0.6\textwidth}
+
+\includegraphics[scale=0.3]{uvcatas}
+\end{column}
+\begin{column}{0.4\textwidth}
+R-J Law: $U(T) = \frac{8\pi}{\lambda^4} k_B T$\\ [1ex]
+$where$\\[1ex]
+ $k_B = 1.38\times10^{-23}$ JK$^{-1}$\\[2ex]
+Let's analyse this...\\[6ex]
+\vspace{4cm}
+
+\end{column}
+\end{columns}
+
+
+\end{frame}
+
+
+\begin{frame}{Relating Frequency, Wavelength, Speed}
+\small
+
+The wavelength $\lambda$\\[1ex]
+The frequency $f$\\[1ex]
+The speed $c$\\[1ex]
+
+\end{frame}
+
+
+\begin{frame}{Planck's ``Solution''}
+\small
+R-J Law: $U(T) = \frac{8\pi}{\lambda^4} k_B T$\\[2ex]
+Does not agree with countless observations\\[2ex]
+The theory (classical) to be modified somehow if it is to describe the data\\[2ex]
+Planck found that if he insisted \textbf{the energy only take discrete values}, he got this modification for free.\\[2ex]
+
+Allowed Energy $E = $ [some integer n] x [some constant h] x [ frequency]\\[1ex]
+
+Planck Law: $U(T) = \frac{ 8\pi }{\lambda^4} \frac{hc}{ \lambda ( e^{(hc/\lambda)k_B T} -1)}$ \\[2ex]
+
+
+This Planck formula of the `energy density' perfectly matched the observations, and solved the UV catastrophe.\\[1ex]
+
+
+\end{frame}
+
+
+\begin{frame}{Allowed Energies}
+\small
+
+Allowed Energy $E = $ [n] x [h] x [f] =  [n] x [h] x [ $\frac{c}{\lambda}$ ]\\[1ex]
+
+Consider three wavelengths of em radiation:\\[1ex]
+
+10 m (radio)\\ % 1240/10e9 = 1.24e-07, 
+
+500 nm (visible light)\\ % 1240/500 =  2.48 
+
+100 pm (x-ray)\\ [1ex] % 1240/0.1 = 12400
+
+If $hc = 1240 $ eV nm, what is the smallest ($n=1$) allowed energy in eV?\\[2ex]
+
+\textbf{Note!}\\[1ex]
+Planck did not think his restriction of Energies using E=nhf was anything more than a mathematical trick.\\[1ex]
+It was Einstein who realised the physical importance of this, and coined the term `Planck's constant' for h.\\[1ex]
+\end{frame}
+
+
+ 
+\end{document}

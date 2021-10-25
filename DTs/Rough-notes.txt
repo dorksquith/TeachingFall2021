@@ -51,6 +51,18 @@ How to grade out of 3: detailed examples.
 How quickly is marking expected to be done? Would prefer Friday afternoon, but Monday 12 noon at latest (this is for Friday noon submission deadline)
 I think we need to have a specific 1 hour lecture with documentation which is for the DTs and the students, explaining exactly how the grading will be done for coursework marked by humans. This should include the MPS guidelines for significant figures / precision, the policy on the use of units both within algebraic formulae and for a given answer, how to lay out a solution, and examples of what constitutes a 1, 2, 3.
 
+Attendance (chat with Rachel 22 Oct 2021)
+Workshop attendance is poor
+Compulsory attendance? Added to mark?
+Proposal:
++ Students must attend the workshop in order to get the mark.
++ Students don't get the problem in advance
++ Variation on problem for the different days
++ DT role is quite rewarding for them
++ Perhaps incorporate training into the actual DT experience?
++ Give Simon the feedback that training should be concurrent with teaching
+
+
 
 Notes for lecturers:
 
